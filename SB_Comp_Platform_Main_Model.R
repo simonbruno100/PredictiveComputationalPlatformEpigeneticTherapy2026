@@ -38,8 +38,7 @@ if(!file.exists(output_location_figures)) dir.create(output_location_figures)
 
 
 # Load ODE PD model parameters from saved Stan fitting
-fit <- readRDS(paste0(output_location, "EstimatedParameters.Rds"))
-posterior_samples <- rstan::extract(fit)$theta2
+posterior_samples <- readRDS(paste0(output_location, "posterior_samples.rds"))
 
 
 # Draw parameter samples and run the ODE for each sample
@@ -761,8 +760,8 @@ tested_treatments <- tested_treatments %>%
 # SAVE FINALs
 
 # Define file paths
-tested_treatments_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/GA_drug2BEFORE_autocatalysis_no_A_rep_E_2doses_per_day_CostF_dyingcells_AND_toxicity_2025_12_tested_treatments_2_bis.rds"
-best_treatment_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/GA_drug2BEFORE_autocatalysis_no_A_rep_E_2doses_per_day_CostF_dyingcells_AND_toxicity_2025_12_best_treatment_2_bis.rds"
+tested_treatments_file <- "/Users/....rds"
+best_treatment_file <- "/Users/....rds"
 
 
 # # # Save the objects
@@ -1122,19 +1121,19 @@ waterfall_cost <- waterfall_cost %>%
 ############################################################
 
 # # Main study
-# schedule_info_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_main_study_schedule_info.rds"
+# schedule_info_file <- "/Users/.../main_study_schedule_info.rds"
 # 
-# waterfall_data_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_main_study_waterfall_data.rds"
+# waterfall_data_file <- "/Users/.../main_study_waterfall_data.rds"
 
 # # # AKTi study
-# schedule_info_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_AKTi_study_schedule_info.rds"
+# schedule_info_file <- "/Users/.../AKTi_study_schedule_info.rds"
 # 
-# waterfall_data_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_AKTi_study_waterfall_data.rds"
+# waterfall_data_file <- "/Users/.../AKTi_study_waterfall_data.rds"
 # 
 # # EZH2i study
-schedule_info_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_EZH2i_study_schedule_info.rds"
+schedule_info_file <- "/Users/.../EZH2i_study_schedule_info.rds"
 
-waterfall_data_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/02_2026_EZH2i_study_waterfall_data.rds"
+waterfall_data_file <- "/Users/.../EZH2i_study_waterfall_data.rds"
 
 # Save objects
 saveRDS(schedule_info,  file = schedule_info_file)

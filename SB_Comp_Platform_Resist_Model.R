@@ -378,8 +378,8 @@ expand_daily_doses <- function(d) {
 # SAVE FINALs
 
 # Define file paths
-tested_treatments_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/GA_drug2BEFORE_autocatalysis_no_A_rep_E_2doses_per_day_CostF_dyingcells_AND_toxicity_2025_12_tested_treatments_2_bis.rds"
-best_treatment_file <- "/Users/sbruno/Partners HealthCare Dropbox/Simone Bruno/Projects/Cichowski, Karen/Amy data (project 1)/R codes/data-analysis/GA_drug2BEFORE_autocatalysis_no_A_rep_E_2doses_per_day_CostF_dyingcells_AND_toxicity_2025_12_best_treatment_2_bis.rds"
+tested_treatments_file <- "/Users/....rds"
+best_treatment_file <- "/Users/....rds"
 
 # # # Save the objects
 # saveRDS(tested_treatments, file = tested_treatments_file)
