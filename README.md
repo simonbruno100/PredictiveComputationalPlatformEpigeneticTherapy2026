@@ -36,4 +36,4 @@ Reproducibility
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 DOI
 
-This repository is archived on Zenodo: https://zenodo.org/badge/1200784060.svg)](https://doi.org/10.5281/zenodo.19410819
+This repository is archived on Zenodo: https://doi.org/10.5281/zenodo.19410819 
