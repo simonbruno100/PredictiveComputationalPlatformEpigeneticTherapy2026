@@ -7,6 +7,7 @@ The platform integrates mechanistic modeling of chromatin dynamics and tumor pro
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Repository Structure
+
 •	SB_Comp_Platform_Main_Model.R
 Main computational model for combined epigenetic and signaling therapy (tazemetostat + ipatasertib) 
 
@@ -21,6 +22,7 @@ Pre-estimated parameters for the tumor progression model
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Setup
+
 Before running any script, you must update the output directories in each file:
 output_location <- "/Users/..."           # to be modified
 output_location_figures <- "/Users/..."  # to be modified
@@ -28,5 +30,10 @@ Set these paths to your desired local directories where results and figures will
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Reproducibility
-•	All simulations use fixed parameter values stored in:
-posterior_samples.rds
+
+•	All simulations use fixed parameter values stored in posterior_samples.rds
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DOI
+
+This repository is archived on Zenodo: https://zenodo.org/badge/1200784060.svg)](https://doi.org/10.5281/zenodo.19410819
