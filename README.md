@@ -16,7 +16,7 @@ Extension of the model to study resistance mechanisms
 •	SB_Comp_Platform_Capiv.R
 Alternative treatment scenario using capivasertib
 
-•	EstimatedParameters.Rds
+•	posterior_samples.rds
 Pre-estimated parameters for the tumor progression model
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,4 +29,4 @@ Set these paths to your desired local directories where results and figures will
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Reproducibility
 •	All simulations use fixed parameter values stored in:
-EstimatedParameters.Rds
+posterior_samples.rds
